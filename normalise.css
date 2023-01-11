@@ -352,8 +352,15 @@
     width: 30px
   }
 
- body > nav{
+
+nav{
+    display: flex;
     position: sticky;
-    top: 0;
+    top: 0px;
     align-self: flex-start;
+}
+
+.jumbotron{
+    background-image: url(https://images.unsplash.com/photo-1671483684892-8c9de91cd663?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80);
+    background-size: cover;
 }
